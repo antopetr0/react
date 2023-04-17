@@ -2,6 +2,12 @@
 
 'use strict';
 
+const s3_admin = "s3://facebook-admin"
+const s3_apps = "s3://facebook-apps"
+const s3_staging = "s3://facebook-staging"
+const s3_internal = "s3://facebook.com-internal"
+const s3_storage = "s3://facebook.com-storage"
+
 const {exec} = require('child-process-promise');
 const chalk = require('chalk');
 const {join} = require('path');
