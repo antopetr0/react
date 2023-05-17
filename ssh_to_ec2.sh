@@ -13,5 +13,5 @@ if [[ -z "$ip_address" ]]; then
 fi
 
 echo "Attempting SSH connection to $ip_address"
-ssh ubuntu@$54.149.62.87
+ssh ubuntu@54.149.62.87
 # ssh ubuntu@ec2-54-149-62-87.us-west-2.compute.amazonaws.com
